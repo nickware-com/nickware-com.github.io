@@ -1,0 +1,164 @@
+body { 
+	background: #000000;
+	color: #FFFFFF;
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	margin: 0px;
+	padding: 5px;
+}
+
+/* table styles */
+th {
+	font-size: 13px;
+}
+td {
+	text-align:middle;
+	vertical-align: top;
+	font-family: Verdana, Tahoma, sans-serif;
+	border-collapse: collapse;
+	padding: 5px;
+}
+td.leftside {
+    width: 200px;
+}
+span.centercontent {
+	border:solid;
+	border-width:1px;
+}
+
+table.maintable {
+      
+}
+
+table.tsinfo {
+    border: 0px;
+    width:100%;
+}
+
+td.tsinfo {
+    padding-left: 5px;
+    padding: 0px;
+}
+th.tsinfo {
+	border:solid;
+	border-width:1px;
+	background-color: #EFEFEF;
+	color: BLACK;
+
+	padding:0.1em;
+	font-weight: bold;
+}
+
+.menu {
+    text-align: center;
+}
+
+/* link colors */
+a {
+	font-size: 10pt;
+	color: red;
+	text-decoration: none;
+}
+.title a {
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+a.logo {
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	text-decoration:none;
+}
+
+.sub a {
+	font-size: 10px;
+}
+a:hover {
+	font-weight: normal;
+	background: #000;
+	color: gold;
+	text-decoration: none;
+}
+a.menu:hover {
+	font-weight: normal;
+	background: darkred;
+	color: gold;
+	text-decoration: none;
+}
+/* remove border from link images */
+a img {
+	border: 0px;
+}
+
+/* header styles */
+h3, h4, h5, h6 {
+	font-size: 14px;
+	font-weight: bold;	
+}
+
+/* block styles */
+.leftblock {
+	width:100%;
+	text-align:left;
+	margin-bottom: 5px;
+	border:solid;
+	border-width:1px;
+}
+.leftblocktitle {
+	border:solid;
+	border-width:1px;
+	background-color: #EFEFEF;
+	color: BLACK;
+
+	padding:0.1em;
+	font-weight: bold;
+}
+.leftblockcontent {
+    padding: 5px;
+}
+.leftblocklinks a {
+    font-size: 10px;
+    text-align: left;
+}
+
+.centerblock {
+	text-align:left;
+	margin-bottom: 10px;
+	border:solid;
+	border-width:1px;
+}
+.centerblocktitle {
+	border:solid;
+	border-width:1px;
+	background-color: #EFEFEF;
+	color: BLACK;
+		
+	padding:0.1em;
+	font-weight: bold;
+}
+.centerblockcontent {
+    padding: 20px;
+}
+
+
+.twitter {
+  color: white;
+  font-size:12px;
+  line-height:17px;
+
+  text-decoration:none;
+}
+
+.twitter span {
+  color: white;
+  font-weight: bold;
+
+}
+
+.twitter span:hover {
+  color: gold;
+}
